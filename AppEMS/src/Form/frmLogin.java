@@ -176,8 +176,8 @@ public class frmLogin extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 //new frmLogin().setVisible(true);
-                //new frmAuthor().setVisible(true);
-                new frmBuucuc().setVisible(true);
+                new frmAuthor().setVisible(true);
+                //new frmBuucuc().setVisible(true);
             }
         });
     }

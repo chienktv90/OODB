@@ -251,8 +251,8 @@ public class frmBuucuc extends javax.swing.JFrame {
                 {
                     String maBuuCuc  = txtMaBuuCuc.getText();
                     String tenBuuCuc = txtTenBuuCuc.getText();
-                    
-                    Buucuc bc = new Buucuc(maBuuCuc, tenBuuCuc);
+                    String diachi="";
+                    Buucuc bc = new Buucuc(maBuuCuc, tenBuuCuc, diachi);
                     
                     db.store(bc);
 

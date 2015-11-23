@@ -15,7 +15,7 @@ import java.util.Set;
 public class Buucuc {
         private String IdBuuCuc;
         private String TenBuuCuc;
-        
+        private String DiaChi;
         //khong them so mac trinh cac thuoc tinh la null
         public Buucuc()
         {
@@ -24,13 +24,15 @@ public class Buucuc {
         {
             this.IdBuuCuc = id;
             this.TenBuuCuc = null;
+            this.DiaChi = null;
         }
 
 
-        public Buucuc(String id, String ten)
+        public Buucuc(String id, String ten, String dc)
         {
             this.IdBuuCuc = id;
             this.TenBuuCuc = ten;
+            this.DiaChi = dc;
         }
 
         public String getIdBuuCuc()
@@ -51,5 +53,15 @@ public class Buucuc {
         public void setTenBuuCuc(String ten)
         {
             this.TenBuuCuc=ten;
+        }
+        
+        public String getDiaChi()
+        {
+          return this.DiaChi;
+        }
+
+        public void setDiaChi(String dc)
+        {
+            this.DiaChi=dc;
         }
 }
