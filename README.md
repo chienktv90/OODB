@@ -1,2 +1,2 @@
 # OODB
-cơ sở dữ liệu hướng đối tượng
+Object Database Management System (ODBMS)
